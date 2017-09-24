@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack ./src/index.js ./public/bundle.js",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/ruzhickii/studyProject/issues"
   },
-  "homepage": "https://github.com/ruzhickii/studyProject#readme"
+  "homepage": "https://github.com/ruzhickii/studyProject#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "webpack": "^3.6.0"
+  }
 }
