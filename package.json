@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruzhickii/studyProject.git"
+  },
+  "keywords": [
+    "test",
+    "study"
+  ],
+  "author": "Alexander Ruzhickii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruzhickii/studyProject/issues"
+  },
+  "homepage": "https://github.com/ruzhickii/studyProject#readme"
+}
